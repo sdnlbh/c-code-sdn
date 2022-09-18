@@ -7,7 +7,7 @@ int main()
 	int c = 1;
 	scanf_s("%d", &n);
 	for (a = 1; a <= n; a++)
-	{
+	{       c=1;
 		for (b = 1; b <= a; b++)
 		{
 
