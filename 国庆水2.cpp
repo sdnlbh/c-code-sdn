@@ -4,7 +4,7 @@
 int main()
 {   
 	char arr[] = {"Happy National Day"};
-	char arr2[19] = {" "};
+	char arr2[19] = {"                  "};
 	int sz = sizeof(arr) / sizeof(arr[0]) - 1;
 	int left = 0;
 	int right = sz - 1;
@@ -18,6 +18,7 @@ int main()
 		left++;
 		right--;
 	}
+	printf("%s",arr2);
 
 	return 0;
 }
