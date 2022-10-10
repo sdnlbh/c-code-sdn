@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-typedef struct hobbit//ÖØ¶¨Òå
+typedef struct hobbit//é‡å®šä¹‰
 {
 
 	char a[20];
@@ -8,7 +8,7 @@ typedef struct hobbit//ÖØ¶¨Òå
 	char c[20];
 }hobbit;
 
-struct student//Ö±½Ó¶¨Òå
+struct student//ç›´æŽ¥å®šä¹‰
 {
 	char name[10];
 	int age;
@@ -19,7 +19,7 @@ struct student//Ö±½Ó¶¨Òå
 
 
 
-void print(struct student tem)//´«Öµ
+void print(struct student tem)//ä¼ å€¼
 {
 	printf("name=%s\n", tem.name);
 	printf("age=%d\n", tem.age);
@@ -30,7 +30,7 @@ void print(struct student tem)//´«Öµ
 
 }
 
-void print2(struct student* tem)//´«Ö·
+void print2(struct student* tem)//ä¼ å€¼
 {
 	printf("name=%s\n", tem->name);
 	printf("age=%d\n", tem->age);
@@ -43,7 +43,7 @@ void print2(struct student* tem)//´«Ö·
 
 int main()
 {
-	struct student sdn = { "sdn",20,"114514",{"play","sleep","eat"} };//Ç¶Ì×¸³Öµ
+	struct student sdn = { "sdn",20,"114514",{"play","sleep","eat"} };åµŒå¥—èµ‹å€¼
 	print(sdn);
 	print2(&sdn);
 	return 0;
