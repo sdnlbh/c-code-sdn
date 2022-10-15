@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int check(int x)//Çó²¹ÂëÖĞÓĞ¼¸¸ö1
+int check(int x)//æ±‚ä¸€ä¸ªæ•°äºŒè¿›åˆ¶è¡¥ç ä¸­1çš„ä¸ªæ•°
 {
 	int count = 0;
 	while (x)
