@@ -11,10 +11,10 @@ char* my_strncat(char* dest,const char* src,int sz)
 	int i = 0;
 	while (sz--)
 	{
-		if (!(*dests++ = *src++))//*dests,*src!=0Ê±¼ÌÐø
+		if (!(*dests++ = *src++))//*dests,*src!=0æ—¶ç»§ç»­
 		return ret;
 	}
-	*dests = '\0';//Ä©Î²²»ÉÏ\0
+	*dests = '\0';//æœ«å°¾è¡¥ä¸Š'\0'
 	return ret;
 
 }
