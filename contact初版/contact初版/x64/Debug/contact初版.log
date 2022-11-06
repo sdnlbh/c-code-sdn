@@ -1,0 +1,4 @@
+﻿  contact函数主体.c
+D:\c-code\project\个人练习\contact初版\contact初版\contact.h(17,1): warning C4005: “max”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(1282): message : 参见“max”的前一个定义
+  contact初版.vcxproj -> D:\c-code\project\个人练习\contact初版\x64\Debug\contact初版.exe
