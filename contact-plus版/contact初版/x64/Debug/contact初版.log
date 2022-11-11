@@ -1,0 +1,7 @@
+﻿D:\MVSC\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(contact初版.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  contact函数主体.c
+D:\c-code\project\个人练习\进阶\动态内存分配\contact-plus版\contact初版\contact.h(17,1): warning C4005: “max”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(1282,1): message : 参见“max”的前一个定义
+D:\c-code\project\个人练习\进阶\动态内存分配\contact-plus版\contact初版\contact函数主体.c(27,16): warning C4133: “初始化”: 从“i *”到“info *”的类型不兼容
+D:\c-code\project\个人练习\进阶\动态内存分配\contact-plus版\contact初版\contact函数主体.c(142,15): warning C4133: “初始化”: 从“infp *”到“info *”的类型不兼容
+  contact初版.vcxproj -> D:\c-code\project\个人练习\进阶\动态内存分配\contact-plus版\x64\Debug\contact-plus版.exe
