@@ -5,7 +5,7 @@ int main()
 	int arr[10][10] = { 0 };
 	int i = 0;
 	int j = 0;
-	for (i = 0; i < 10; i++)//杨辉三角初始换数组
+	for (i = 0; i < 10; i++)//
 	{
 		for (j = 0; j < 10; j++)
 		{
