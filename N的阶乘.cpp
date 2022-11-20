@@ -6,7 +6,7 @@ int main()
 	int N = 0;
 	int x = 1;
 	scanf_s("%d", &N);
-	for (N; n <= N; n++)
+	for (n; n <= N; n++)
 	{
 		x = x * n;
 
