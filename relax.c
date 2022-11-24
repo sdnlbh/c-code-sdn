@@ -3,6 +3,6 @@
 int main()
 {
 
-	printf("\a¸ÃĞİÏ¢À²£¡");
+	printf("æˆ‘è¦æ‘¸é±¼");
 	return 0;
 }
